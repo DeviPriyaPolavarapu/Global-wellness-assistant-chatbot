@@ -1,0 +1,20 @@
+{
+  "ask_about_symptom": {
+    "headache": "Headache can be caused by stress, dehydration, or lack of sleep. Drink water, rest, and consult a doctor if persistent.",
+    "fever": "Fever may be due to infection. Take plenty of fluids and rest. If temperature exceeds 102°F or lasts more than 3 days, consult a doctor.",
+    "cough": "Cough can be due to cold or respiratory infection. Stay hydrated and consider consulting a physician if it persists."
+  },
+  "query_first_aid": {
+    "burn": "For minor burns, cool the area with running water for 10-15 minutes and cover with a sterile bandage.",
+    "cut": "Clean the wound with water, apply an antiseptic, and cover with a clean bandage.",
+    "sprain": "Rest the injured area, apply ice, and elevate. Seek medical advice for severe sprains."
+  },
+  "ask_about_wellness_tip": {
+    "exercise": "Regular exercise improves overall health. Aim for at least 30 minutes of moderate activity daily.",
+    "hydration": "Drink at least 8 glasses of water a day to stay hydrated and maintain body functions.",
+    "sleep": "Ensure 7-9 hours of quality sleep every night for physical and mental health."
+  },
+  "general_guidance": {
+    "consult_doctor": "Always consult a medical professional for diagnosis and treatment of serious conditions."
+  }
+}
