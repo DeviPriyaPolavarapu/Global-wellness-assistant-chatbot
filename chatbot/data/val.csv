@@ -1,0 +1,21 @@
+sentence,intent
+thanks for the help,thanks
+yo,greet
+catch you later,goodbye
+i am breaking down,mood_check
+bye for now,goodbye
+how to exercise at home?,give_tip
+thanks for the tip,thanks
+my legs hurt,ask_symptom
+is headache a symptom of dehydration?,ask_symptom
+i have an itchy skin rash,ask_symptom
+i feel peaceful,mood_check
+i'm leaving now,goodbye
+i'm mentally drained,mood_check
+tips to improve focus,give_tip
+i feel excited,mood_check
+advice for sleeping well,give_tip
+i feel chest tightness,ask_symptom
+"hello, can i ask something?",greet
+thanks for the info,thanks
+i feel happy,mood_check

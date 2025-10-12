@@ -1,0 +1,234 @@
+version: "3.1"
+
+nlu:
+# General intent to ask about any condition
+- intent: ask_condition_info
+  examples: |
+    # Fever
+    - I have [Fever](condition)
+    - Symptoms of [Fever](condition)
+    - What should I do for [Fever](condition)?
+    - My [Fever](condition) is not going away
+    - Advice for [Fever](condition)
+    
+    # Cold
+    - I am experiencing [Cold](condition)
+    - How to treat [Cold](condition)?
+    - Remedies for [Cold](condition)
+    - What are the symptoms of [Cold](condition)
+    
+    # Flu
+    - I think I have [Flu](condition)
+    - How to manage [Flu](condition)
+    - Tips for [Flu](condition)
+    - Symptoms of [Flu](condition)
+    
+    # Cuts
+    - I have [Cuts](condition)
+    - First aid for [Cuts](condition)
+    - How to treat [Cuts](condition)?
+    
+    # Burns
+    - I got [Burns](condition)
+    - First aid for [Burns](condition)
+    - How to treat [Burns](condition)?
+    
+    # Dehydration
+    - I think I have [Dehydration](condition)
+    - Symptoms of [Dehydration](condition)
+    - How to prevent [Dehydration](condition)?
+    
+    # Headache
+    - I have [Headache](condition)
+    - Remedies for [Headache](condition)
+    - What can I do for [Headache](condition)?
+    
+    # Anxiety
+    - I feel [Anxiety](condition)
+    - How to deal with [Anxiety](condition)?
+    - Tips for [Anxiety](condition)
+    
+    # Stress
+    - I am experiencing [Stress](condition)
+    - How to manage [Stress](condition)?
+    - Advice for [Stress](condition)
+    
+    # Back Pain
+    - I have [Back Pain](condition)
+    - Remedies for [Back Pain](condition)
+    - How to treat [Back Pain](condition)?
+    
+    # Asthma
+    - I have [Asthma](condition)
+    - What to do if I have [Asthma](condition)?
+    - How to prevent [Asthma](condition)?
+    
+    # Diabetes
+    - I have [Diabetes](condition)
+    - Tips for managing [Diabetes](condition)
+    - What are the symptoms of [Diabetes](condition)?
+    
+    # Hypertension
+    - I have [Hypertension](condition)
+    - How to control [Hypertension](condition)?
+    - Advice for [Hypertension](condition)
+    
+    # Allergies
+    - I am suffering from [Allergies](condition)
+    - Remedies for [Allergies](condition)
+    - Symptoms of [Allergies](condition)
+    
+    # Food Poisoning
+    - I have [Food Poisoning](condition)
+    - What should I do for [Food Poisoning](condition)?
+    - How to treat [Food Poisoning](condition)?
+    
+    # Migraine
+    - I have [Migraine](condition)
+    - Symptoms of [Migraine](condition)
+    - How to relieve [Migraine](condition)?
+    
+    # Sunburn
+    - I have [Sunburn](condition)
+    - Remedies for [Sunburn](condition)
+    - How to prevent [Sunburn](condition)?
+    
+    # Insomnia
+    - I am suffering from [Insomnia](condition)
+    - Tips to handle [Insomnia](condition)
+    - How to sleep better with [Insomnia](condition)?
+    
+    # Obesity
+    - I have [Obesity](condition)
+    - How to reduce [Obesity](condition)?
+    - Tips for managing [Obesity](condition)
+    
+    # Depression
+    - I feel [Depression](condition)
+    - How to cope with [Depression](condition)?
+    - Advice for [Depression](condition)
+    
+    # Acidity
+    - I have [Acidity](condition)
+    - Remedies for [Acidity](condition)
+    - How to prevent [Acidity](condition)?
+    
+    # Toothache
+    - I have [Toothache](condition)
+    - How to relieve [Toothache](condition)?
+    - Remedies for [Toothache](condition)
+    
+    # Sprain
+    - I have a [Sprain](condition)
+    - How to treat [Sprain](condition)?
+    - First aid for [Sprain](condition)
+    
+    # Nosebleed
+    - I have a [Nosebleed](condition)
+    - How to stop [Nosebleed](condition)?
+    - Remedies for [Nosebleed](condition)
+    
+    # Constipation
+    - I have [Constipation](condition)
+    - How to relieve [Constipation](condition)?
+    - Remedies for [Constipation](condition)
+    
+    # Acne
+    - I have [Acne](condition)
+    - Remedies for [Acne](condition)
+    - How to prevent [Acne](condition)?
+    
+    # Cough
+    - I have [Cough](condition)
+    - How to treat [Cough](condition)?
+    - Remedies for [Cough](condition)
+    
+    # Diarrhea
+    - I have [Diarrhea](condition)
+    - How to manage [Diarrhea](condition)?
+    - Remedies for [Diarrhea](condition)
+    
+    # Ear Pain
+    - I have [Ear Pain](condition)
+    - Remedies for [Ear Pain](condition)
+    - How to treat [Ear Pain](condition)?
+    
+    # Motion Sickness
+    - I feel [Motion Sickness](condition)
+    - How to prevent [Motion Sickness](condition)?
+    - Remedies for [Motion Sickness](condition)
+    
+    # Chickenpox
+    - My child has [Chickenpox](condition)
+    - Symptoms of [Chickenpox](condition)
+    - How to manage [Chickenpox](condition)?
+    
+    # Measles
+    - Symptoms of [Measles](condition)
+    - How to prevent [Measles](condition)?
+    - What to do if someone has [Measles](condition)?
+    
+    # Malaria
+    - I have [Malaria](condition)
+    - Symptoms of [Malaria](condition)
+    - How to prevent [Malaria](condition)?
+    
+    # Dengue
+    - I have [Dengue](condition)
+    - Symptoms of [Dengue](condition)
+    - How to manage [Dengue](condition)?
+    
+    # Typhoid
+    - I have [Typhoid](condition)
+    - Symptoms of [Typhoid](condition)
+    - How to treat [Typhoid](condition)?
+    
+    # Tuberculosis
+    - I have [Tuberculosis](condition)
+    - Symptoms of [Tuberculosis](condition)
+    - How to manage [Tuberculosis](condition)?
+    
+    # Pneumonia
+    - I have [Pneumonia](condition)
+    - Symptoms of [Pneumonia](condition)
+    - How to treat [Pneumonia](condition)?
+    
+    # Gastritis
+    - I have [Gastritis](condition)
+    - Remedies for [Gastritis](condition)
+    - How to prevent [Gastritis](condition)?
+    
+    # Ulcers
+    - I have [Ulcers](condition)
+    - Symptoms of [Ulcers](condition)
+    - How to manage [Ulcers](condition)?
+    
+    # Irritable Bowel Syndrome
+    - I have [Irritable Bowel Syndrome](condition)
+    - How to relieve [Irritable Bowel Syndrome](condition)?
+    - Remedies for [Irritable Bowel Syndrome](condition)
+    
+    # Hypothyroidism
+    - I have [Hypothyroidism](condition)
+    - Symptoms of [Hypothyroidism](condition)
+    - How to manage [Hypothyroidism](condition)?
+    
+    # Hyperthyroidism
+    - I have [Hyperthyroidism](condition)
+    - Symptoms of [Hyperthyroidism](condition)
+    - How to treat [Hyperthyroidism](condition)?
+    
+    # PCOS
+    - I have [PCOS](condition)
+    - How to manage [PCOS](condition)?
+    - Advice for [PCOS](condition)
+    
+    # Conjunctivitis
+    - I have [Conjunctivitis](condition)
+    - Symptoms of [Conjunctivitis](condition)
+    - How to treat [Conjunctivitis](condition)?
+    
+    # Ear Infection
+    - I have [Ear Infection](condition)
+    - Symptoms of [Ear Infection](condition)
+    - How to treat [Ear Infection](condition)

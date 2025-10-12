@@ -1,0 +1,588 @@
+{
+  "Fever": {
+    "description": "Fever is a temporary increase in body temperature, often due to infection.",
+    "symptoms": ["high temperature", "sweating", "chills", "headache"],
+    "first_aid": [
+      "Drink plenty of fluids to prevent dehydration.",
+      "Get enough rest.",
+      "Use a cool compress on the forehead."
+    ],
+    "prevention": [
+      "Maintain good hygiene.",
+      "Wash hands regularly.",
+      "Avoid close contact with sick people."
+    ],
+    "disclaimer": "⚠️ This is general information, not a medical diagnosis. Please consult a doctor if fever persists."
+  },
+
+  "Cold": {
+    "description": "The common cold is a viral infection affecting the nose and throat.",
+    "symptoms": ["runny nose", "sneezing", "cough", "sore throat"],
+    "first_aid": [
+      "Drink warm fluids.",
+      "Rest well.",
+      "Use steam inhalation for relief."
+    ],
+    "prevention": [
+      "Wash hands often.",
+      "Avoid touching your face with unwashed hands.",
+      "Stay away from infected people."
+    ],
+    "disclaimer": "⚠️ Usually mild, but if symptoms last more than 10 days, seek medical advice."
+  },
+
+  "Flu": {
+    "description": "Flu is an infection of the nose, throat, and lungs caused by influenza viruses.",
+    "symptoms": ["fever", "chills", "body aches", "fatigue", "sore throat"],
+    "first_aid": [
+      "Rest and stay hydrated.",
+      "Take warm soups and fluids.",
+      "Use over-the-counter fever reducers (paracetamol/ibuprofen)."
+    ],
+    "prevention": [
+      "Get annual flu vaccination.",
+      "Maintain hygiene and avoid crowds during flu season."
+    ],
+    "disclaimer": "⚠️ Consult a doctor if high fever persists or breathing difficulty occurs."
+  },
+
+  "Cuts": {
+    "description": "A cut is an injury where the skin is broken, often caused by sharp objects.",
+    "symptoms": ["bleeding", "pain", "swelling"],
+    "first_aid": [
+      "Clean the wound with running water.",
+      "Apply gentle pressure with a clean cloth to stop bleeding.",
+      "Use antiseptic and cover with a sterile bandage."
+    ],
+    "prevention": [
+      "Handle sharp objects carefully.",
+      "Use protective gloves when necessary."
+    ],
+    "disclaimer": "⚠️ For deep cuts or uncontrolled bleeding, seek medical attention immediately."
+  },
+
+  "Burns": {
+    "description": "Burns are tissue damage caused by heat, chemicals, electricity, or radiation.",
+    "symptoms": ["redness", "blisters", "swelling", "pain"],
+    "first_aid": [
+      "Cool the burn under running water for 10-20 minutes.",
+      "Do not apply ice directly.",
+      "Cover with a clean, non-fluffy cloth."
+    ],
+    "prevention": [
+      "Be careful around hot surfaces and open flames.",
+      "Use protective gear while cooking or handling chemicals."
+    ],
+    "disclaimer": "⚠️ For severe burns, seek emergency medical care immediately."
+  },
+
+  "Dehydration": {
+    "description": "Dehydration happens when your body loses more fluids than it takes in.",
+    "symptoms": ["thirst", "dry mouth", "dizziness", "dark urine"],
+    "first_aid": [
+      "Drink water or oral rehydration solutions.",
+      "Rest in a cool place.",
+      "Avoid alcohol or caffeine."
+    ],
+    "prevention": [
+      "Drink at least 8 glasses of water daily.",
+      "Stay hydrated during exercise.",
+      "Consume hydrating foods like watermelon and cucumber."
+    ],
+    "disclaimer": "⚠️ Severe dehydration needs immediate medical care."
+  },
+
+  "Headache": {
+    "description": "Headaches can be caused by stress, dehydration, or underlying illness.",
+    "symptoms": ["pain in head", "pressure", "sensitivity to light or sound"],
+    "first_aid": [
+      "Rest in a quiet, dark room.",
+      "Stay hydrated.",
+      "Use a cold or warm compress."
+    ],
+    "prevention": [
+      "Reduce stress through relaxation techniques.",
+      "Maintain good posture.",
+      "Avoid skipping meals."
+    ],
+    "disclaimer": "⚠️ Severe or persistent headaches may require medical evaluation."
+  },
+
+  "Anxiety": {
+    "description": "Anxiety is excessive worry or fear that interferes with daily life.",
+    "symptoms": ["restlessness", "rapid heartbeat", "trouble sleeping", "sweating"],
+    "first_aid": [
+      "Practice deep breathing.",
+      "Do light physical activity like walking.",
+      "Talk to a trusted person."
+    ],
+    "prevention": [
+      "Maintain regular exercise.",
+      "Limit caffeine intake.",
+      "Practice meditation or yoga."
+    ],
+    "disclaimer": "⚠️ If anxiety interferes with daily functioning, consult a mental health professional."
+  },
+
+  "Stress": {
+    "description": "Stress is the body's response to pressure or challenges.",
+    "symptoms": ["irritability", "tiredness", "trouble concentrating", "sleep problems"],
+    "first_aid": [
+      "Take short breaks and rest.",
+      "Try relaxation exercises.",
+      "Engage in hobbies or activities you enjoy."
+    ],
+    "prevention": [
+      "Maintain work-life balance.",
+      "Get adequate sleep.",
+      "Practice mindfulness."
+    ],
+    "disclaimer": "⚠️ Chronic stress can harm health; seek help if overwhelming."
+  },
+
+  "Back Pain": {
+    "description": "Back pain is discomfort in the back, often from muscle strain or poor posture.",
+    "symptoms": ["stiffness", "aching", "difficulty bending"],
+    "first_aid": [
+      "Apply a hot or cold pack.",
+      "Do gentle stretching.",
+      "Rest but avoid prolonged bed rest."
+    ],
+    "prevention": [
+      "Maintain good posture.",
+      "Lift objects correctly.",
+      "Exercise regularly to strengthen muscles."
+    ],
+    "disclaimer": "⚠️ Persistent or severe back pain should be checked by a doctor."
+  },
+  
+  "Asthma": {
+    "description": "Asthma is a condition where airways narrow and swell, causing breathing difficulty.",
+    "symptoms": ["shortness of breath", "wheezing", "chest tightness", "coughing"],
+    "first_aid": [
+      "Use prescribed inhaler immediately.",
+      "Sit upright and remain calm.",
+      "Seek emergency care if breathing does not improve."
+    ],
+    "prevention": [
+      "Avoid allergens and triggers.",
+      "Take medications as prescribed.",
+      "Maintain good indoor air quality."
+    ],
+    "disclaimer": "⚠️ Asthma attacks can be life-threatening. Always follow your doctor’s asthma action plan."
+  },
+
+  "Diabetes": {
+    "description": "Diabetes is a condition where the body has trouble regulating blood sugar.",
+    "symptoms": ["increased thirst", "frequent urination", "fatigue", "blurred vision"],
+    "first_aid": [
+      "Monitor blood sugar levels.",
+      "Take insulin or medications as prescribed.",
+      "Eat balanced meals at regular times."
+    ],
+    "prevention": [
+      "Maintain a healthy diet.",
+      "Exercise regularly.",
+      "Maintain a healthy weight."
+    ],
+    "disclaimer": "⚠️ Diabetes requires long-term medical management. Follow professional medical advice."
+  },
+
+  "Hypertension": {
+    "description": "Hypertension (high blood pressure) increases the risk of heart disease and stroke.",
+    "symptoms": ["often no symptoms", "headache", "dizziness", "shortness of breath"],
+    "first_aid": [
+      "Rest and relax in a quiet environment.",
+      "Avoid salt and caffeine.",
+      "Take prescribed blood pressure medicines."
+    ],
+    "prevention": [
+      "Eat a low-salt diet.",
+      "Exercise regularly.",
+      "Avoid smoking and alcohol."
+    ],
+    "disclaimer": "⚠️ High blood pressure is often silent. Regular check-ups are essential."
+  },
+
+  "Allergies": {
+    "description": "Allergies are immune system reactions to substances like pollen, dust, or certain foods.",
+    "symptoms": ["sneezing", "itchy eyes", "skin rash", "difficulty breathing"],
+    "first_aid": [
+      "Avoid allergen exposure.",
+      "Take antihistamines (if recommended).",
+      "Use an epinephrine injector for severe reactions."
+    ],
+    "prevention": [
+      "Keep surroundings dust-free.",
+      "Use allergy-proof bedding.",
+      "Avoid known triggers."
+    ],
+    "disclaimer": "⚠️ Severe allergic reactions (anaphylaxis) require immediate emergency care."
+  },
+
+  "Food Poisoning": {
+    "description": "Food poisoning is caused by eating contaminated food or drinks.",
+    "symptoms": ["nausea", "vomiting", "diarrhea", "stomach cramps"],
+    "first_aid": [
+      "Drink oral rehydration solution or water.",
+      "Rest and avoid solid food until better.",
+      "Seek medical help if severe or prolonged."
+    ],
+    "prevention": [
+      "Wash hands before handling food.",
+      "Cook food thoroughly.",
+      "Avoid eating spoiled or street food."
+    ],
+    "disclaimer": "⚠️ Severe dehydration from food poisoning can be dangerous. Consult a doctor if symptoms persist."
+  },
+
+  "Migraine": {
+    "description": "A migraine is a type of headache often accompanied by nausea and sensitivity to light.",
+    "symptoms": ["intense headache", "nausea", "blurred vision", "light sensitivity"],
+    "first_aid": [
+      "Rest in a quiet, dark room.",
+      "Apply a cold pack on the head.",
+      "Take doctor-prescribed medication."
+    ],
+    "prevention": [
+      "Avoid known triggers (stress, lack of sleep).",
+      "Maintain a regular sleep schedule.",
+      "Stay hydrated."
+    ],
+    "disclaimer": "⚠️ Frequent migraines should be evaluated by a healthcare professional."
+  },
+
+  "Sunburn": {
+    "description": "Sunburn is skin damage caused by overexposure to the sun’s UV rays.",
+    "symptoms": ["red skin", "pain", "blisters", "peeling skin"],
+    "first_aid": [
+      "Cool the skin with cold water or aloe vera gel.",
+      "Drink extra fluids to prevent dehydration.",
+      "Avoid further sun exposure."
+    ],
+    "prevention": [
+      "Apply sunscreen before going out.",
+      "Wear protective clothing and hats.",
+      "Avoid peak sun hours."
+    ],
+    "disclaimer": "⚠️ Severe sunburn with blisters or fever requires medical care."
+  },
+
+  "Insomnia": {
+    "description": "Insomnia is difficulty falling asleep or staying asleep.",
+    "symptoms": ["trouble sleeping", "daytime fatigue", "difficulty concentrating"],
+    "first_aid": [
+      "Maintain a consistent bedtime routine.",
+      "Avoid caffeine and heavy meals before sleep.",
+      "Create a calm, dark sleeping environment."
+    ],
+    "prevention": [
+      "Follow good sleep hygiene.",
+      "Exercise regularly (but not before bedtime).",
+      "Limit screen time before sleeping."
+    ],
+    "disclaimer": "⚠️ Persistent insomnia may indicate underlying health issues. Consult a doctor if it continues."
+  },
+
+  "Obesity": {
+    "description": "Obesity is excess body fat that increases the risk of chronic diseases.",
+    "symptoms": ["excessive body weight", "breathlessness", "low energy"],
+    "first_aid": [
+      "Adopt a balanced diet.",
+      "Start light physical activity.",
+      "Track weight regularly."
+    ],
+    "prevention": [
+      "Maintain an active lifestyle.",
+      "Eat a balanced, portion-controlled diet.",
+      "Avoid junk food and sugary drinks."
+    ],
+    "disclaimer": "⚠️ Obesity requires lifestyle management and sometimes medical support."
+  },
+
+  "Depression": {
+    "description": "Depression is a mental health disorder causing persistent sadness and loss of interest.",
+    "symptoms": ["sadness", "fatigue", "loss of interest", "sleep disturbances"],
+    "first_aid": [
+      "Talk to a trusted person.",
+      "Engage in light physical activity.",
+      "Practice relaxation techniques."
+    ],
+    "prevention": [
+      "Maintain social connections.",
+      "Follow a healthy daily routine.",
+      "Seek therapy when needed."
+    ],
+    "disclaimer": "⚠️ If experiencing suicidal thoughts, seek immediate professional help."
+  },
+
+  "Acidity": {
+    "description": "Acidity occurs when the stomach produces excess acid, leading to heartburn and discomfort.",
+    "symptoms": ["burning in chest", "sour taste", "indigestion", "stomach pain"],
+    "first_aid": [
+      "Drink cold milk or water.",
+      "Avoid spicy or oily food.",
+      "Take antacids if needed."
+    ],
+    "prevention": [
+      "Eat small, frequent meals.",
+      "Avoid alcohol and smoking.",
+      "Do not lie down immediately after meals."
+    ],
+    "disclaimer": "⚠️ Chronic acidity may indicate underlying digestive issues. Consult a doctor if frequent."
+  },
+
+  "Toothache": {
+    "description": "Toothache is pain in or around a tooth, often due to cavities or infection.",
+    "symptoms": ["sharp pain", "sensitivity to hot or cold", "swelling of gums"],
+    "first_aid": [
+      "Rinse mouth with warm salt water.",
+      "Apply a cold compress on the cheek.",
+      "Take pain relievers if required."
+    ],
+    "prevention": [
+      "Brush and floss regularly.",
+      "Avoid excessive sugar intake.",
+      "Visit dentist regularly."
+    ],
+    "disclaimer": "⚠️ Persistent tooth pain requires dental evaluation."
+  },
+
+  "Sprain": {
+    "description": "A sprain is a stretched or torn ligament, often in the ankle or wrist.",
+    "symptoms": ["swelling", "pain", "bruising", "restricted movement"],
+    "first_aid": [
+      "Follow RICE method: Rest, Ice, Compression, Elevation.",
+      "Use pain relievers if necessary.",
+      "Avoid putting weight on the injury."
+    ],
+    "prevention": [
+      "Warm up before exercise.",
+      "Wear proper footwear.",
+      "Strengthen muscles around joints."
+    ],
+    "disclaimer": "⚠️ Severe sprains may need medical attention or physiotherapy."
+  },
+
+  "Nosebleed": {
+    "description": "Nosebleeds occur when tiny blood vessels in the nose break due to dryness, injury, or irritation.",
+    "symptoms": ["bleeding from nose", "dizziness", "irritation"],
+    "first_aid": [
+      "Sit upright and lean forward slightly.",
+      "Pinch nostrils for 10 minutes.",
+      "Apply a cold compress on the nose."
+    ],
+    "prevention": [
+      "Keep nasal passages moist.",
+      "Avoid picking the nose.",
+      "Use a humidifier in dry weather."
+    ],
+    "disclaimer": "⚠️ Frequent or heavy nosebleeds need medical evaluation."
+  },
+
+  "Constipation": {
+    "description": "Constipation is difficulty passing stools or infrequent bowel movements.",
+    "symptoms": ["hard stools", "straining", "abdominal pain"],
+    "first_aid": [
+      "Drink more water.",
+      "Eat fiber-rich foods.",
+      "Do light exercise."
+    ],
+    "prevention": [
+      "Maintain a high-fiber diet.",
+      "Stay hydrated.",
+      "Avoid delaying bowel movements."
+    ],
+    "disclaimer": "⚠️ Chronic constipation may indicate digestive issues. Seek medical advice if persistent."
+  },
+
+  "Acne": {
+    "description": "Acne is a common skin condition where hair follicles get clogged with oil and dead skin cells.",
+    "symptoms": ["pimples", "blackheads", "whiteheads", "scars"],
+    "first_aid": [
+      "Wash face with mild cleanser.",
+      "Avoid touching or squeezing pimples.",
+      "Use dermatologist-prescribed creams if needed."
+    ],
+    "prevention": [
+      "Maintain proper skincare routine.",
+      "Avoid excessive oily food.",
+      "Keep skin clean and hydrated."
+    ],
+    "disclaimer": "⚠️ Severe acne requires dermatologist treatment."
+  },
+
+  "Cough": {
+    "description": "Coughing helps clear the throat and airways, often caused by infections or irritation.",
+    "symptoms": ["dry cough", "wet cough with mucus", "chest discomfort"],
+    "first_aid": [
+      "Drink warm fluids like ginger tea.",
+      "Use honey with warm water.",
+      "Rest your voice."
+    ],
+    "prevention": [
+      "Avoid exposure to smoke and dust.",
+      "Strengthen immunity with a balanced diet.",
+      "Stay hydrated."
+    ],
+    "disclaimer": "⚠️ Persistent cough for more than 2 weeks should be checked by a doctor."
+  },
+
+  "Diarrhea": {
+    "description": "Diarrhea is frequent, loose, or watery bowel movements, often due to infection or food poisoning.",
+    "symptoms": ["loose stools", "abdominal cramps", "dehydration"],
+    "first_aid": [
+      "Drink oral rehydration solution (ORS).",
+      "Eat light meals like rice and bananas.",
+      "Avoid dairy and oily foods."
+    ],
+    "prevention": [
+      "Drink clean water.",
+      "Maintain proper food hygiene.",
+      "Wash hands before eating."
+    ],
+    "disclaimer": "⚠️ Severe diarrhea can cause dehydration. Consult a doctor if prolonged."
+  },
+
+  "Ear Pain": {
+    "description": "Ear pain may be due to infection, wax build-up, or pressure changes.",
+    "symptoms": ["sharp pain", "hearing loss", "discharge from ear"],
+    "first_aid": [
+      "Use a warm compress on the ear.",
+      "Avoid inserting objects into the ear.",
+      "Take pain relief if required."
+    ],
+    "prevention": [
+      "Keep ears clean and dry.",
+      "Avoid loud noises.",
+      "Protect ears during swimming."
+    ],
+    "disclaimer": "⚠️ Persistent or severe ear pain should be checked by an ENT specialist."
+  },
+
+  "Motion Sickness": {
+    "description": "Motion sickness is nausea caused by traveling in cars, boats, or planes.",
+    "symptoms": ["nausea", "vomiting", "dizziness", "sweating"],
+    "first_aid": [
+      "Sit in a comfortable position facing forward.",
+      "Focus on the horizon.",
+      "Take anti-nausea medication if needed."
+    ],
+    "prevention": [
+      "Avoid heavy meals before travel.",
+      "Choose seats with less motion (front seat in cars, near wings in planes).",
+      "Keep windows open for fresh air."
+    ],
+    "disclaimer": "⚠️ Severe or frequent motion sickness may need medical advice."
+  },
+
+  "Chickenpox": {
+    "description": "Chickenpox is a viral infection causing itchy rash and red spots.",
+    "symptoms": ["itchy rash", "red spots", "fever", "fatigue"],
+    "first_aid": ["Apply calamine lotion to reduce itching.", "Take lukewarm baths.", "Keep fingernails short to prevent scratching."],
+    "prevention": ["Vaccination is available.", "Avoid contact with infected individuals."],
+    "disclaimer": "⚠️ Consult a doctor if rash spreads extensively or fever is high."
+  },
+  "Measles": {
+    "description": "Measles is a highly contagious viral infection causing rash, cough, and fever.",
+    "symptoms": ["red rash", "cough", "fever", "runny nose", "conjunctivitis"],
+    "first_aid": ["Keep patient hydrated.", "Give paracetamol for fever.", "Isolate from others to prevent spread."],
+    "prevention": ["Vaccination (MMR) is effective.", "Avoid exposure to infected people."],
+    "disclaimer": "⚠️ Seek medical attention immediately if severe symptoms appear."
+  },
+  "Malaria": {
+    "description": "Malaria is a mosquito-borne infectious disease caused by Plasmodium parasites.",
+    "symptoms": ["fever", "chills", "sweating", "headache", "nausea"],
+    "first_aid": ["Seek medical attention immediately.", "Take prescribed antimalarial medications."],
+    "prevention": ["Use mosquito nets and repellents.", "Eliminate stagnant water near living areas."],
+    "disclaimer": "⚠️ Malaria can be life-threatening; always consult a doctor."
+  },
+  "Dengue": {
+    "description": "Dengue is a viral infection transmitted by mosquitoes, causing high fever and body pain.",
+    "symptoms": ["high fever", "severe body aches", "rash", "headache", "nausea"],
+    "first_aid": ["Seek medical care immediately.", "Stay hydrated.", "Use paracetamol for pain; avoid aspirin."],
+    "prevention": ["Prevent mosquito breeding.", "Use repellents and protective clothing."],
+    "disclaimer": "⚠️ Severe dengue can cause complications; medical supervision is required."
+  },
+  "Typhoid": {
+    "description": "Typhoid is a bacterial infection causing fever, weakness, and abdominal pain.",
+    "symptoms": ["high fever", "weakness", "stomach pain", "diarrhea or constipation"],
+    "first_aid": ["Seek immediate medical treatment.", "Take prescribed antibiotics."],
+    "prevention": ["Drink safe water.", "Eat properly cooked food.", "Practice good hygiene."],
+    "disclaimer": "⚠️ Typhoid can be serious; always follow doctor’s instructions."
+  },
+  "Tuberculosis": {
+    "description": "Tuberculosis (TB) is a bacterial infection affecting the lungs and sometimes other organs.",
+    "symptoms": ["persistent cough", "fever", "night sweats", "weight loss"],
+    "first_aid": ["Consult a doctor immediately.", "Follow prescribed TB treatment regimen."],
+    "prevention": ["BCG vaccination.", "Avoid close contact with TB patients.", "Maintain good ventilation indoors."],
+    "disclaimer": "⚠️ TB requires long-term treatment; do not self-medicate."
+  },
+  "Pneumonia": {
+    "description": "Pneumonia is a lung infection causing inflammation of air sacs.",
+    "symptoms": ["cough with phlegm", "fever", "chills", "difficulty breathing", "chest pain"],
+    "first_aid": ["Seek immediate medical attention.", "Take prescribed antibiotics if bacterial.", "Rest and stay hydrated."],
+    "prevention": ["Vaccination for pneumococcus and flu.", "Avoid smoking.", "Practice good hygiene."],
+    "disclaimer": "⚠️ Pneumonia can be life-threatening, especially in children and elderly."
+  },
+  "Gastritis": {
+    "description": "Gastritis is inflammation of the stomach lining, often causing pain and indigestion.",
+    "symptoms": ["stomach pain", "nausea", "vomiting", "bloating", "loss of appetite"],
+    "first_aid": ["Avoid spicy or acidic foods.", "Drink plenty of water.", "Take antacids if recommended."],
+    "prevention": ["Eat small, frequent meals.", "Avoid excessive alcohol.", "Manage stress."],
+    "disclaimer": "⚠️ Persistent gastritis should be evaluated by a doctor."
+  },
+  "Ulcers": {
+    "description": "Ulcers are sores in the lining of the stomach or small intestine.",
+    "symptoms": ["burning stomach pain", "nausea", "vomiting", "loss of appetite"],
+    "first_aid": ["Avoid NSAIDs unless prescribed.", "Eat bland foods.", "Stay hydrated."],
+    "prevention": ["Avoid smoking and alcohol.", "Eat healthy meals.", "Manage stress."],
+    "disclaimer": "⚠️ Consult a doctor if pain is severe or persistent."
+  },
+  "Irritable Bowel Syndrome": {
+    "description": "IBS is a digestive disorder causing abdominal pain and altered bowel habits.",
+    "symptoms": ["abdominal cramps", "diarrhea", "constipation", "bloating"],
+    "first_aid": ["Maintain hydration.", "Eat light meals.", "Avoid trigger foods."],
+    "prevention": ["Eat high-fiber diet.", "Exercise regularly.", "Manage stress."],
+    "disclaimer": "⚠️ Persistent symptoms should be evaluated by a healthcare professional."
+  },
+  "Hypothyroidism": {
+    "description": "Hypothyroidism occurs when the thyroid gland produces insufficient hormones.",
+    "symptoms": ["fatigue", "weight gain", "cold intolerance", "dry skin", "hair thinning"],
+    "first_aid": ["Consult a doctor for thyroid hormone therapy.", "Maintain balanced diet."],
+    "prevention": ["Regular thyroid check-ups.", "Ensure adequate iodine intake."],
+    "disclaimer": "⚠️ Only a doctor can diagnose and treat thyroid conditions."
+  },
+  "Hyperthyroidism": {
+    "description": "Hyperthyroidism occurs when the thyroid gland produces excessive hormones.",
+    "symptoms": ["weight loss", "rapid heartbeat", "nervousness", "tremors", "heat intolerance"],
+    "first_aid": ["Consult a doctor for proper treatment.", "Avoid stimulants like caffeine."],
+    "prevention": ["Regular thyroid check-ups.", "Follow prescribed medication if diagnosed."],
+    "disclaimer": "⚠️ Only a doctor can diagnose and treat thyroid conditions."
+  },
+  "PCOS": {
+    "description": "Polycystic Ovary Syndrome (PCOS) is a hormonal disorder in women causing irregular periods and cysts.",
+    "symptoms": ["irregular periods", "weight gain", "acne", "hair growth on face/body"],
+    "first_aid": ["Consult a gynecologist.", "Maintain a healthy diet and exercise."],
+    "prevention": ["Maintain healthy weight.", "Monitor blood sugar levels.", "Follow doctor’s recommendations."],
+    "disclaimer": "⚠️ PCOS requires medical supervision and lifestyle management."
+  },
+  "Conjunctivitis": {
+    "description": "Conjunctivitis, or pink eye, is inflammation of the eye's conjunctiva, often due to infection or allergies.",
+    "symptoms": ["red eyes", "itching", "tearing", "discharge"],
+    "first_aid": ["Use prescribed eye drops.", "Avoid touching or rubbing eyes.", "Maintain eye hygiene."],
+    "prevention": ["Do not share towels or eye makeup.", "Wash hands frequently."],
+    "disclaimer": "⚠️ Persistent or severe cases require medical attention."
+  },
+  "Ear Infection": {
+    "description": "Ear infections occur when bacteria or viruses infect the middle ear.",
+    "symptoms": ["ear pain", "hearing loss", "fluid discharge", "fever"],
+    "first_aid": ["Apply warm compress on ear.", "Consult a doctor for antibiotics if bacterial.", "Avoid inserting objects into the ear."],
+    "prevention": ["Keep ears dry.", "Treat colds promptly.", "Avoid exposure to secondhand smoke."],
+    "disclaimer": "⚠️ Persistent or severe ear infections require medical evaluation."
+  }
+
+
+
+
+}

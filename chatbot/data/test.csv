@@ -1,0 +1,21 @@
+sentence,intent
+i am so stressed,mood_check
+i feel very relaxed,mood_check
+i keep sneezing a lot,ask_symptom
+i need to go,goodbye
+talk soon,goodbye
+i lost it,mood_check
+tell me ways to stay healthy,give_tip
+hello!,greet
+i'm worried about work,mood_check
+appreciate it,thanks
+thank you so much,thanks
+i'm feeling dizzy,ask_symptom
+i feel nauseous,ask_symptom
+i'm coughing a lot,ask_symptom
+advice for healthy eating?,give_tip
+hey there,greet
+"hello, good to see you",greet
+suggest a morning routine,give_tip
+i'm in a cheerful mood,mood_check
+i have fever and chills,ask_symptom

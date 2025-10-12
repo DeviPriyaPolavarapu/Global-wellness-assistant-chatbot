@@ -1,0 +1,202 @@
+sentence,intent
+I have a runny nose,ask_symptom
+Thanks bot,thanks
+I'm feeling down,mood_check
+Cheers,thanks
+Give me a tip for better sleep,give_tip
+I feel numbness in my fingers,ask_symptom
+Many thanks,thanks
+Stop,goodbye
+I need to go,goodbye
+End chat,goodbye
+I have joint pain,ask_symptom
+How to relax before an exam?,give_tip
+Hello!,greet
+Thanks for your help,thanks
+Any quick wellness tips?,give_tip
+I'm leaving now,goodbye
+I appreciate it,thanks
+Hello there,greet
+Tips to improve focus,give_tip
+Goodnight,goodbye
+I'm in a good mood,mood_check
+Thanks for the help,thanks
+I noticed an irregular heartbeat,ask_symptom
+I have mood swings,mood_check
+Thanks a lot,thanks
+Thank you very much,thanks
+Good morning,greet
+I have a sore throat,ask_symptom
+Thx,thanks
+How to prevent burnout?,give_tip
+My back hurts,ask_symptom
+I have been vomiting,ask_symptom
+See you,goodbye
+Thanks again,thanks
+Thanks for the tip,thanks
+I feel hopeless,mood_check
+I don't want to get out of bed,mood_check
+How to deal with insomnia?,give_tip
+I feel anxious about exams,mood_check
+I feel nauseous,ask_symptom
+Give me breathing exercises,give_tip
+Feeling sad,mood_check
+Give me a tip for better posture,give_tip
+Hey friend,greet
+I'm stressed out,mood_check
+How to exercise at home?,give_tip
+Peace out,goodbye
+Thanks for the info,thanks
+Tips for mindful breathing,give_tip
+I feel bloated,ask_symptom
+I'm feeling restless,mood_check
+How to sleep naturally?,give_tip
+How can I reduce stress?,give_tip
+I have to go,goodbye
+I'm feeling calm,mood_check
+Good evening,greet
+Hi team,greet
+Bye,goodbye
+What does chest pain mean?,ask_symptom
+I'm feeling dizzy,ask_symptom
+Hey there,greet
+I have chest pain,ask_symptom
+Greetings,greet
+Thank you!,thanks
+Talk soon,goodbye
+Thanks a million,thanks
+I'm experiencing migraines,ask_symptom
+How to meditate?,give_tip
+Thanks a bunch,thanks
+Suggest a morning routine,give_tip
+See ya,goodbye
+I'm depressed,mood_check
+"Hello, can I ask something?",greet
+"Hey, how are you?",greet
+Catch you later,goodbye
+Thanks a ton,thanks
+I'm angry,mood_check
+"Goodbye, thank you",goodbye
+I feel disconnected,mood_check
+How to calm down fast?,give_tip
+I'm lonely,mood_check
+I feel guilty,mood_check
+I feel anxious today,mood_check
+I feel tired all the time,mood_check
+Tips to boost my mood,give_tip
+Suggest stretches for back pain,give_tip
+I feel tearful,mood_check
+Bye bye,goodbye
+Advice for sleeping well,give_tip
+I feel overwhelmed,mood_check
+Thanks so much,thanks
+How to hydrate properly?,give_tip
+Good afternoon,greet
+I have abdominal cramps,ask_symptom
+"I'm done, bye",goodbye
+How to improve digestion?,give_tip
+What should I eat for energy?,give_tip
+That's all for now,goodbye
+"Great, thanks",thanks
+"Hi, nice to meet you",greet
+I feel energized,mood_check
+"Hello, good to see you",greet
+Is headache a symptom of dehydration?,ask_symptom
+I have trouble sleeping because of pain,ask_symptom
+Tell me a self-care tip,give_tip
+"Hi there, are you there?",greet
+Thanks,thanks
+"Thanks, bye",goodbye
+Any tips for anxiety?,give_tip
+Bye for now,goodbye
+Appreciate it,thanks
+Logging off,goodbye
+Yo,greet
+See you tomorrow,goodbye
+Hello! I need some help,greet
+Hiya,greet
+I feel frustrated,mood_check
+Thank you,thanks
+See you later,goodbye
+"Hey, I've got a question",greet
+Much appreciated,thanks
+Farewell,goodbye
+I have a stomach ache,ask_symptom
+What are quick relaxation tips?,give_tip
+Hi! What's up?,greet
+I feel happy,mood_check
+Advice for healthy eating?,give_tip
+Hi,greet
+I have tingling in my hands,ask_symptom
+I'm worried about work,mood_check
+I have fever and chills,ask_symptom
+I feel excited,mood_check
+I have a headache and nausea,ask_symptom
+"Thanks, that helps",thanks
+Thank you so much,thanks
+I have an itchy skin rash,ask_symptom
+My head hurts,ask_symptom
+"Hi, need some advice",greet
+Hello bot,greet
+"Hi, can you help me?",greet
+I feel numb,mood_check
+"Hey, are you available?",greet
+Thanks!,thanks
+Goodbye,goodbye
+Take care,goodbye
+I'm coughing a lot,ask_symptom
+I have shortness of breath,ask_symptom
+Why am I dizzy?,ask_symptom
+Hey!,greet
+Talk to you later,goodbye
+"My stomach hurts",ask_symptom
+"I have stomach pain",ask_symptom
+"Pain in my stomach",ask_symptom
+"I feel chest tightness",ask_symptom
+"My head hurts badly",ask_symptom
+"I have a severe headache",ask_symptom
+"I got migraine pain",ask_symptom
+"I feel pressure in my chest",ask_symptom
+"My tummy hurts",ask_symptom
+"I have back pain",ask_symptom
+"There is pain in my joints",ask_symptom
+"I feel short of breath",ask_symptom
+"My throat is sore",ask_symptom
+"I keep sneezing a lot",ask_symptom
+"I have eye pain",ask_symptom
+"My ear hurts",ask_symptom
+"I have toothache",ask_symptom
+"I feel sharp stomach ache",ask_symptom
+"I have muscle cramps",ask_symptom
+"My legs hurt",ask_symptom
+"I feel hopeless",mood_check
+"I am so stressed",mood_check
+"I'm really anxious",mood_check
+"I feel so angry",mood_check
+"I'm feeling scared",mood_check
+"I'm in a low mood",mood_check
+"I feel very down",mood_check
+"I feel happy today",mood_check
+"I'm super excited",mood_check
+"I feel very relaxed",mood_check
+"I'm really worried",mood_check
+"I'm mentally drained",mood_check
+"I feel exhausted",mood_check
+"I'm feeling burnt out",mood_check
+"I feel peaceful",mood_check
+"I'm sad today",mood_check
+"I feel overwhelmed with work",mood_check
+"I'm panicking",mood_check
+"I'm in a cheerful mood",mood_check
+"I feel lonely right now",mood_check
+"I want to get fit",give_tip
+"How can I get fit?",give_tip
+"Tell me ways to stay healthy",give_tip
+"Give me tips for fitness",give_tip
+"How do I improve my health?",give_tip
+"I lost it",mood_check
+"I feel like giving up",mood_check
+"I am breaking down",mood_check
+"I can’t take it anymore",mood_check
+"I’m not okay",mood_check
+
