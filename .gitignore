@@ -1,27 +1,2 @@
-# Python cache
-__pycache__/
-*.pyc
-
-# Virtual environment
-venv/
-
-# Environment files
-.env
-
-# Rasa cache and models
-chatbot/.rasa/cache/
-chatbot/models/
-
-# Local database files
-*.db
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# IDE/editor folders
-.vscode/
-.idea/
+chatbot/models/ 
+*.safetensors 
