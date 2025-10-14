@@ -18,17 +18,17 @@
 - Health disclaimers for each condition.
 
 # 🧰 Tech Stack
-Frontend          : Streamlit
-Backend           : Python
-Database          : SQLite
-AI Frameworks     : Hugging Face Transformers
-Language Models   : Helsinki-NLP/opus-mt-en-hi
-                    Helsinki-NLP/opus-mt-hi-en
+- Frontend          : Streamlit
+- Backend           : Python
+- Database          : SQLite
+- AI Frameworks     : Hugging Face Transformers
+- Language Models   : Helsinki-NLP/opus-mt-en-hi
+                      Helsinki-NLP/opus-mt-hi-en
 
 # 🧭 Workflow
                    User
                     ↓ 
-          Streamlit UI → Language Selection → User Query
+         Streamlit UI → Language Selection → User Query
                     ↓ 
             NLU & Intent Recognition 
                     ↓ 
@@ -38,7 +38,7 @@ Language Models   : Helsinki-NLP/opus-mt-en-hi
                     ↓ 
             Displayed to User
                     ↓ 
-          Admin Dashboard for Management & Analytics
+         Admin Dashboard for Management & Analytics
 
 
 
